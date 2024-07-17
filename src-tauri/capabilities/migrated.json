@@ -36,6 +36,8 @@
       ]
     },
     "store:default",
+    "store:allow-get",
+    "store:allow-set",
     "global-shortcut:default",
     "global-shortcut:allow-register-all"
   ]
