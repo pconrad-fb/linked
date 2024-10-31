@@ -14,13 +14,13 @@ An easy, distraction-free way to record your thoughts, declutter your mind and k
 
 ## Features
 
-- 📅 Write down anything and as much as you want per day
+- 📅 Write down anything and as much as you want per day including to-do lists
 - 🔍 Search across all days
-- ✍️ Support for various text styles as well as todo, list and code blocks
-- 🖼 Linked comes in dark and light mode
+- ✍️ Supports basic Markdown-style formatting, including code blocks
+- 🖼 Work in dark or light mode
 - 💻 Keyboard navigation for maximum productivity
-- 💾 Files are forever yours, you can find them at `~/Documents/linked`
-- 🌐 Multi language support
+- 💾 Files are forever yours, stored as HTML in JSON (`~/Documents/linked`or wherever you choose)
+- 🌐 Multi-language support
 
 ### Upcoming
 
@@ -32,7 +32,7 @@ An easy, distraction-free way to record your thoughts, declutter your mind and k
 
 ## 💖 Sponsor
 
-The app will always be opensource and free - if you enjoy the app, please consider [becoming a sponsor or leave a tip](https://github.com/sponsors/lostdesign). 
+The app will always be opensource and free - if you enjoy the app, please consider [becoming a sponsor or leave a tip](https://github.com/sponsors/lostdesign).
 
 
 ## Keyboard Shortcuts
@@ -55,7 +55,7 @@ The app will always be opensource and free - if you enjoy the app, please consid
   **Settings** <kbd>Cmd or Ctrl</kbd> + <kbd>,</kbd>
 
   **Leave Settings** <kbd>Esc</kbd>
-  
+
   **Exit Code Block** <kbd>Cmd or Ctrl</kbd> + <kbd>Enter</kbd>
 </details>
 
@@ -66,37 +66,36 @@ Please check [Contributing.md](/CONTRIBUTING.md) first before opening a pull req
 <details>
   <summary>How to run locally</summary>
 
-  
+
   1. Check your node version, it must be v15 or newer
-  
+
   ```
   node --version
   ```
-  
+
   2. Clone the repository (make sure you have git installed)
-  
+
   ```
   git clone https://github.com/lostdesign/linked.git
   ```
-  
+
   3. Change to the newly downloaded directory
-  
+
   ```
   cd linked/
   ```
-  
+
   4. Install project dependencies
-  
+
   ```
   yarn
   ```
-  
+
   5. Start the application
-  
+
   ```
   yarn electron:serve
   ```
 </details>
 
 Make sure to follow [@uselinked](https://twitter.com/uselinked) on twitter to get the latest news about the project or feel free to check [github discussions](https://github.com/lostdesign/linked/discussions).
-
